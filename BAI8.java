@@ -10,8 +10,8 @@ public class BAI8 {
         if (a != 0) {
             double delta = b * b - 4 * a * c;
             if (delta > 0) {
-                System.out.println("x1 = " + (-b + Math.sqrt(delta)) / (2 * a));
-                System.out.println("x2 = " + (-b - Math.sqrt(delta)) / (2 * a));
+                System.out.println("x1 = " + ((-b + Math.sqrt(delta)) / (2 * a)));
+                System.out.println("x2 = " + ((-b - Math.sqrt(delta)) / (2 * a)));
             } else if (delta == 0) {
                 System.out.println("x1 = x2 = " + (-b / (2 * a)));
             } else {
